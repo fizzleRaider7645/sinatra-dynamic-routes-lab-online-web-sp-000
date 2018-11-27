@@ -15,6 +15,6 @@ class App < Sinatra::Base
   end
   
   get '/say/:number/:phrase'
-  
+    status 200
   end
 end
