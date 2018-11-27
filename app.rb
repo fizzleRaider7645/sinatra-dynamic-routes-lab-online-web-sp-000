@@ -36,4 +36,5 @@ class App < Sinatra::Base
     @operation = params[:operation]
     case @operation
   end
+  end
 end
