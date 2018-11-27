@@ -9,5 +9,6 @@ class App < Sinatra::Base
   end
   
   get '/square/:number' do
+    status 200
   end
 end
