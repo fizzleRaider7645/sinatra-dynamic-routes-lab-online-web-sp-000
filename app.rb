@@ -35,7 +35,7 @@ class App < Sinatra::Base
     status 200
     @operation = params[:operation]
     @number1 = params[:number1]
-    @number2
+    @number2 = params[:number2]
     case @operation
     when "subtract"
       
