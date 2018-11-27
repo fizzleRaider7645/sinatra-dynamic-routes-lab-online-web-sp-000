@@ -17,5 +17,6 @@ class App < Sinatra::Base
   get '/say/:number/:phrase'
     status 200
     @number = params[:number]
+    @phrase = params[:phrase]
   end
 end
