@@ -33,5 +33,6 @@ class App < Sinatra::Base
   
   get '/:operation/:number1/:number2' do
     status 200
+    @operation = params[:operation]
   end
 end
