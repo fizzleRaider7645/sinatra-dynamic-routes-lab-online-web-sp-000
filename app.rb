@@ -18,6 +18,6 @@ class App < Sinatra::Base
     status 200
     @number = params[:number]
     @phrase = params[:phrase]
-    
+    "#{@phrase}"
   end
 end
