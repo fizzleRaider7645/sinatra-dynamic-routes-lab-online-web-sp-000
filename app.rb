@@ -14,5 +14,5 @@ class App < Sinatra::Base
     "#{@number.to_i ** 2}"
   end
   
-  get get '/say/:number/:phrase'
+  get '/say/:number/:phrase'
 end
